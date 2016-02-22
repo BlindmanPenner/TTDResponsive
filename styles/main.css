@@ -63,6 +63,10 @@ p {
 	width: 100%;
 }
 
+.container a {
+	text-decoration: none;
+}
+
 .container h2 {
 	padding-bottom: 40px;
 }
@@ -100,6 +104,10 @@ a.projectLink:hover {
 	display: inline-block;
 	font-size: 1.3em;
 	list-style-type: none;
+}
+
+.direct-contact ul li {
+	display: block;
 }
 
 .ctcinfo {
@@ -202,7 +210,6 @@ a.projectLink:hover {
 
 	div.footer-nav{
 		float: right;
-		width: 45%;
 		margin-top: -16px;
 	}
 
