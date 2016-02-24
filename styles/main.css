@@ -59,7 +59,7 @@ p {
 	background: white;
 	float: left;
 	margin-bottom: 50px;
-	padding: 50px 20px;
+	padding: 50px 20px 20px 0;
 	width: 100%;
 }
 
@@ -130,6 +130,11 @@ a.projectLink:hover {
 	text-align: left;
 }
 
+.footer-nav {
+  clear: both;
+  display: none;
+}
+
 .back-to-top {
 	float: right;
 	text-align: right;
@@ -157,15 +162,6 @@ a.projectLink:hover {
 }
 
 /*Media Queries*/
-
-@media screen and (max-width: 768px) {
-
-	.footer-nav {
-    clear: both;
-    display: none;
-  }
-
-}
 
 @media screen and (min-width: 768px) {
 
@@ -267,7 +263,8 @@ a.projectLink:hover {
 
 	.projects {
 		float: left;
-		width: 33%;
+		min-height: 497px;
+		width: 33.3%;
 	}
 
 	div.container {
